@@ -28,7 +28,7 @@ dsh plugin --profile desktop add https://github.com/xia0x1/dsh-ExitOnClose#v0.1.
 
 本地开发时，直接把上面链接换成你的本地目录路径即可。
 
-唯一依赖 `koffi` 自带预编译二进制、不执行安装脚本，因此不会触发 pnpm 的构建脚本审批。
+唯一依赖是 koffi 的预编译平台包 `@koromix/koffi-win32-x64`，它自带原生二进制、不含安装脚本，所以安装不会触发 pnpm 的构建脚本审批。
 
 ## 停用与卸载
 

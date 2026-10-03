@@ -15,10 +15,11 @@
  * that was never on screen cannot arm the watch, and one invisible tick is not
  * enough, so a transient gap between two windows cannot end the application.
  *
- * `koffi` is imported by `src/index.js` only when the plugin mounts. It ships
- * prebuilt binaries for every supported platform and runs no install script.
+ * `koffi` is imported by `src/index.js` as the prebuilt platform package
+ * (`@koromix/koffi-win32-x64`): it carries the native binary and no install
+ * script, so installation never needs a build approval.
  */
-import koffi from 'koffi'
+import koffi from '@koromix/koffi-win32-x64'
 import { ancestorsOf, treeOf } from './process-tree.js'
 
 const TH32CS_SNAPPROCESS = 0x2

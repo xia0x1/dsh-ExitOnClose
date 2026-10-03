@@ -31,8 +31,9 @@ dsh plugin --profile desktop add https://github.com/xia0x1/dsh-ExitOnClose#v0.1.
 
 For local development, use the checkout path instead of the link.
 
-Its only dependency, `koffi`, ships prebuilt binaries and runs no install script,
-so installation never trips pnpm's build-script approval.
+Its only dependency is koffi's prebuilt Windows package
+(`@koromix/koffi-win32-x64`), which carries the native binary and no install
+script, so installation never trips pnpm's build-script approval.
 
 ## Suspend and uninstall
 
