@@ -92,8 +92,8 @@ and never awaits, and `koffi` is imported lazily, so a Host that cannot provide 
 logs one line and stays inert instead of affecting another plugin or a profile
 boot.
 
-Verified on DeepSeek Harness Desktop `0.2.0-rc.2` (Electron 44, Node 24, Windows
-x64).
+**Version compatibility**: verified on DeepSeek Harness Desktop `0.2.0-rc.2`
+(Electron 44, Node 24, Windows x64); other versions are untested.
 
 ## License
 

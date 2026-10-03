@@ -68,7 +68,7 @@ node --test "test/*.test.mjs"     # 零依赖，不需要安装任何东西
 
 不声明任何 `@deepseek-ai/dsh*` peer 依赖，不注入或消费任何服务，不注册工具、Slot、路由或服务，不修改任何共享对象；`apply` 不抛异常也不 await，`koffi` 懒加载，拿不到时只记一行日志并保持惰性，不会影响其他插件或 profile 启动。
 
-已在 DSH 桌面版 `0.2.0-rc.2`（Electron 44 / Node 24 / Windows x64）验证。
+**版本兼容**：DSH 桌面版 `0.2.0-rc.2`（Electron 44 / Node 24 / Windows x64）已验证；其他版本未测试。
 
 ## 许可证
 
