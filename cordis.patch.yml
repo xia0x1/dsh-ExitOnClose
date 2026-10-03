@@ -1,0 +1,6 @@
+# dsh-ExitOnClose bundle layer: one Host row mounts the plugin.
+# `disabled: false` keeps the row switchable in the Plugins page.
+- insert:
+    - id: dsh-exit-on-close
+      name: 'dsh-exit-on-close'
+      disabled: false

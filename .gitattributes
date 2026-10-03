@@ -1,0 +1,7 @@
+# Keep the repository line-ending neutral: text files are stored with LF and
+# checked out as LF everywhere, so a Windows clone and a CI clone agree.
+* text=auto eol=lf
+
+# Binary assets keep their bytes.
+*.png binary
+*.ico binary

@@ -1,0 +1,54 @@
+{
+  "name": "dsh-exit-on-close",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness Desktop: the window close button ends every DSH process instead of hiding the window in the system tray",
+  "license": "MIT",
+  "author": "xia0x1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xia0x1/dsh-ExitOnClose.git"
+  },
+  "homepage": "https://github.com/xia0x1/dsh-ExitOnClose#readme",
+  "bugs": "https://github.com/xia0x1/dsh-ExitOnClose/issues",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "src",
+    "locale",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "desktop",
+    "electron",
+    "tray",
+    "close",
+    "quit"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "dependencies": {
+    "koffi": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

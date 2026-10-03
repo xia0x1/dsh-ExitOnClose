@@ -1,0 +1,12 @@
+# Dependencies installed for local development only; the plugin ships none of
+# them and DSH installs its own copy inside the profile.
+node_modules/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local run output
+*.log

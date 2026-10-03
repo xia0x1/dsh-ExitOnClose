@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Exit on close",
+    "description": "The window close button ends the application and every DSH process instead of hiding the window in the system tray."
+  }
+}
